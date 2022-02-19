@@ -8,7 +8,7 @@ from urllib.parse import quote
 
 #Google MapsDdirections API endpoint
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key = 'AIzaSyCkvK1oWsuY-G6PETd93Xj_-pe2DXNZw7w'
+api_key = ' '
 
 #Asks the user to input Where they are and where they want to go.
 origin = quote('독일 프랑크푸르트 시청'.replace(' ','+'))
