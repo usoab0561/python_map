@@ -8,7 +8,7 @@ Directions API 를 사용해줌.
 ##Direction API란?   
 (HTTP 요청을 사용하여 Directions API로 운전, 자전거 타기, 도보 및 대중교통 라우팅에 액세스합니다. 웨이포인트는 특정 위치를 통과하는 경로를 변경할 수 있는 기능을 제공합니다. 출발지, 목적지 및 경유지를 텍스트 문자열(예: "Chicago, IL" 또는 "Darwin, NT, Australia") 또는 위도/경도 좌표로 지정합니다.)  
   
-<img width="700" alt="#Google MapsDdirections API endpoint" src="https://user-images.githubusercontent.com/84604563/154813461-f205856f-81b1-41e7-b982-0d11e2c31ec8.png">  
+![image](https://user-images.githubusercontent.com/84604563/154814504-7f9d39ec-3fa6-4ac2-a4fa-82e25fb1c0f9.png)
 api_key를 생성, quote사용해서 퍼센트인코딩 해준다.  
 > quote를 쓰는이유 :   
 > url은 아스키문자(256자)만 넣을수 있는데 한글이 입력되었기 때문이다. (퍼센트인코딩)  
@@ -72,7 +72,7 @@ from urllib.parse import quote
 
 #Google MapsDdirections API endpoint
 endpoint = 'https://maps.googleapis.com/maps/api/directions/json?'
-api_key = 'AIzaSyCkvK1oWsuY-G6PETd93Xj_-pe2DXNZw7w'
+api_key = ' '
 
 #Asks the user to input Where they are and where they want to go.
 origin = quote('독일 프랑크푸르트 시청'.replace(' ','+'))
